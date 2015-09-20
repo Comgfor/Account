@@ -1,0 +1,11 @@
+EmEditor -- Git 推送
+
+将EmEditor配置为Git的编辑器（Step by Step）
+------------------------------------------------------------------------
+      Step1 新增一个名为 GIT_EDITOR 的系统环境变量，设置它的值为 EmEditor.exe //sp。
+　　Step2 修改 PATH 系统环境变量，追加 X:\ .... \ ... \EmEditor  (EmEditor 安装路径)
+　　Step3 打开新的Git命令行以便让系统环境变量的修改生效。
+
+Git  推送命令
+
+git commit -a
